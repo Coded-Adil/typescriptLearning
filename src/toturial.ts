@@ -1,12 +1,16 @@
-console.log("Typescript Learning From Youtube Tutorial");
-interface someValue {
-    name: string;
-    id: number;
-}
+// console.log("Typescript Learning From Youtube Tutorial");
+let awesomeName: string = "AkagamiNoShanks";
+awesomeName = "MugiwaraNoLuffy"; // Valid
+awesomeName = awesomeName.toUpperCase();
+console.log(awesomeName);
 
-let someObj: someValue = {
-    name: "random",
-    id: 123,
-}
+// awesomeName = 20; 
 
-console.log(someObj);
+let amount: number = 23456;
+amount = 12-1;
+// amount = "Hero";
+console.log(amount);
+
+let isAwesome: boolean = true;
+isAwesome = false;
+// isAwesome = "Coco";
