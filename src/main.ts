@@ -7,7 +7,8 @@ import { setupCounter } from './counter.ts'
 // import './uniontypes.ts';
 // import './anytype.ts';
 // import './arrayfunction.ts'
-import './unionQuest.ts'
+// import './unionQuest.ts'
+import './array.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
