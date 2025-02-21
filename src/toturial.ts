@@ -14,3 +14,4 @@ console.log(amount);
 let isAwesome: boolean = true;
 isAwesome = false;
 // isAwesome = "Coco";
+console.log(isAwesome);
