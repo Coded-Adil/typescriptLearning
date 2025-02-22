@@ -10,7 +10,8 @@ import { setupCounter } from './counter.ts'
 // import './unionQuest.ts'
 // import './array.ts'
 // import './carObjects.ts'
-import './objectTask.ts'
+// import './objectTask.ts'
+import './functionLear.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
