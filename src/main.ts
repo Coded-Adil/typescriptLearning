@@ -8,7 +8,8 @@ import { setupCounter } from './counter.ts'
 // import './anytype.ts';
 // import './arrayfunction.ts'
 // import './unionQuest.ts'
-import './array.ts'
+// import './array.ts'
+import './carObjects.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
