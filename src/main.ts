@@ -11,7 +11,10 @@ import { setupCounter } from './counter.ts'
 // import './array.ts'
 // import './carObjects.ts'
 // import './objectTask.ts'
-import './functionLear.ts'
+// import './functionLear.ts'
+// import './calculate.ts'
+// import './addThree.ts'
+import './namechecker.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
