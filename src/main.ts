@@ -15,7 +15,8 @@ import { setupCounter } from './counter.ts'
 // import './calculate.ts'
 // import './addThree.ts'
 // import './namechecker.ts'
-import './calculationfunc.ts'
+// import './calculationfunc.ts'
+import './sumfunc.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
