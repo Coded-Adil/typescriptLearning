@@ -20,7 +20,8 @@ import { setupCounter } from './counter.ts'
 // import './voidtype.ts'
 // import './typechallenge.ts'
 // import './objectin.ts'
-import './createStduent.ts'
+// import './createStduent.ts'
+import './processData.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
