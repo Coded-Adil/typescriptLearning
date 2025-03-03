@@ -22,7 +22,8 @@ import { setupCounter } from './counter.ts'
 // import './objectin.ts'
 // import './createStduent.ts'
 // import './processData.ts'
-import './alias.ts'
+// import './alias.ts'
+import './employeeTask.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

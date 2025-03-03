@@ -25,16 +25,19 @@ type StringOrNumber = string | number;
 let value: StringOrNumber;
 value = 'Hello';
 value = 121;
+console.log(value);
 
-type Theme = 'dark' | 'light';
+// type Theme = 'dark' | 'light';
 
-let theme: Theme;
+// let theme: Theme;
 
-theme = 'dark';
-theme = 'light';
+// theme = 'dark';
+// theme = 'light';
 
-function setTheme(t: Theme) {
-    theme = t;
-}
+// function setTheme(t: Theme) {
+//     theme = t;
+// }
 
-setTheme('dark');
+// const t = "dark"
+
+// console.log(setTheme(t));
