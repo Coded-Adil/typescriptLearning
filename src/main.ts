@@ -23,7 +23,8 @@ import { setupCounter } from './counter.ts'
 // import './createStduent.ts'
 // import './processData.ts'
 // import './alias.ts'
-import './employeeTask.ts'
+// import './employeeTask.ts'
+import './intersectionType.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
