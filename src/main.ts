@@ -25,7 +25,8 @@ import { setupCounter } from './counter.ts'
 // import './alias.ts'
 // import './employeeTask.ts'
 // import './intersectionType.ts'
-import './dynamicAlias.ts'
+// import './dynamicAlias.ts'
+import './typeInterface.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
