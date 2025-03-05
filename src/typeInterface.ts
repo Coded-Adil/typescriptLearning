@@ -3,13 +3,18 @@ interface Book{
     title: string,
     author: string,
     genre?: string
+    // method
+    printAuthor():void
 }
 
 const deepWork: Book = {
     isbn:123,
     title:'deep work',
     author: 'Cal newport',
-    genre: "self-help" 
+    genre: "self-help",
+    printAuthor(){
+        console.log(this.author);
+    } 
 }
 
-console.log(deepWork);
+deepWork.printAuthor();
