@@ -4,7 +4,8 @@ interface Book{
     author: string,
     genre?: string
     // method
-    printAuthor():void
+    printAuthor():void;
+    printTitle(message:string):string;
 }
 
 const deepWork: Book = {
@@ -14,7 +15,12 @@ const deepWork: Book = {
     genre: "self-help",
     printAuthor(){
         console.log(this.author);
+    }, 
+    printTitle(message){
+        return `${this.title} ${message}`;
     } 
 }
 
 deepWork.printAuthor();
+const result = deepWork.printTitle('is a nice book');
+console.log(result);
