@@ -2,7 +2,7 @@ interface Book{
     readonly isbn: number,
     title: string,
     author: string,
-    genre?: string
+    genre?: string; // optional property
     // method
     printAuthor():void;
     printTitle(message:string):string;
