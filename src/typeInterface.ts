@@ -1,6 +1,6 @@
 interface Book{
-    readonly isbn: number,
-    title: string,
+    readonly id: number,
+    name: string,
     author: string,
     genre?: string; // optional property
     // method
@@ -9,15 +9,15 @@ interface Book{
 }
 
 const deepWork: Book = {
-    isbn:123,
-    title:'deep work',
+    id:123,
+    name:'deep work',
     author: 'Cal newport',
     genre: "self-help",
     printAuthor(){
         console.log(this.author);
     }, 
     printTitle(message){
-        return `${this.title} ${message}`;
+        return `${this.name} ${message}`;
     } 
 }
 
