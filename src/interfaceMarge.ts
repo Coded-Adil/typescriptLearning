@@ -57,4 +57,4 @@ console.log(person.getDetails());
 console.log(employee.getDetails());
 console.log(manager.getDetails());
 console.log(manager.getDogDetails());
-manager.managePeople();
+// manager.managePeople();
