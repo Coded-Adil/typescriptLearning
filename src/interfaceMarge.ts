@@ -58,3 +58,7 @@ console.log(employee.getDetails());
 console.log(manager.getDetails());
 console.log(manager.getDogDetails());
 manager.managePeople();
+
+console.log("Person Interface Properties:", Object.keys(person));
+console.log("Employee Interface Properties:", Object.keys(employee));
+console.log("Manager Interface Properties:", Object.keys(manager));
