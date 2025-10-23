@@ -59,3 +59,10 @@ console.log(manager.getDetails());
 console.log(manager.getDogDetails());
 manager.managePeople();
 
+const anotherPerson: Person = {
+    name: "Charlie",
+    age: 25,
+    getDetails(){
+        return `Name: ${this.name}, Age: ${this.age}`;
+    }
+};  
