@@ -26,10 +26,10 @@ import { setupCounter } from './counter.ts'
 // import './employeeTask.ts'
 // import './intersectionType.ts'
 // import './dynamicAlias.ts'
-// import './typeInterface.ts'
+import './typeInterface.ts'
 // import './discountedBook.ts'
 // import './ramUpgrade.ts'
-import './interfaceMarge.ts'
+// import './interfaceMarge.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
