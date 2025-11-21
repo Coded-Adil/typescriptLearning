@@ -14,7 +14,7 @@ import { setupCounter } from './counter.ts'
 // import './functionLear.ts'
 // import './calculate.ts'
 // import './addThree.ts'
-// import './namechecker.ts'
+import './namechecker.ts'
 // import './calculationfunc.ts'
 // import './sumfunc.ts'
 // import './voidtype.ts'
@@ -29,7 +29,7 @@ import { setupCounter } from './counter.ts'
 // import './typeInterface.ts'
 // import './discountedBook.ts'
 // import './ramUpgrade.ts'
-import './interfaceMarge.ts'
+// import './interfaceMarge.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
