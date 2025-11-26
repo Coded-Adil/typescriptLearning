@@ -29,7 +29,7 @@ import { setupCounter } from './counter.ts'
 // import './typeInterface.ts'
 // import './discountedBook.ts'
 // import './ramUpgrade.ts'
-import './interfaceMarge.ts'
+// import './interfaceMarge.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
